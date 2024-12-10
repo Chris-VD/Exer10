@@ -1,0 +1,171 @@
+body{
+    font-family: Open Sans;
+    color: #590209;
+    background-color: white;
+    margin: 0%;
+    width: 100%;
+}
+header{
+    display: flex;
+    margin: 0%;
+    width: 100%;
+    position: fixed;
+}
+header nav{
+    margin: 0%;
+    width: 100%;
+}
+header nav article{
+    font-family: Merienda;
+    font-size: 1.7vh;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    width: 19vh;
+    border-radius: 20px;
+    background-color: #F8F6E9;
+    position: fixed;
+}   
+header nav ul{
+    margin: 0%;
+    margin-top: 50px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+}
+header nav ul li{
+    font-size: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    margin-left: 2vh;
+    margin-right:2vh;
+    width: 20vh;
+    height:7vh;
+    border-radius: 15px;
+    background-color: #F8F6E9;
+}
+header nav ul li:nth-of-type(5){
+    color: #F8F6E9;
+    background-color: #590209;
+}
+main{
+    margin: 0%;
+}
+
+/*Primeira páxina*/
+
+main section{
+    display: flex;
+    margin: 0%;
+    width: 100%;
+}
+main section img{
+    margin: 0%;
+    width: 50%;
+}
+main section section{
+    background-color: #F8F6E9;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0%;
+    width: 50%;
+}
+main section section h1{
+    text-align: center;
+    width: 80%;
+    font-size: 3.8em;
+    text-transform: uppercase;
+}
+main section section button{
+    font-size: 2em;
+    color: #590209;
+    height: 12vh;
+    width: 27vh;
+    background-color: #F8F6E9;
+    border: 4px solid #590209;
+    border-radius: 20px;
+}
+
+/*Segunda páxina*/
+
+main section:nth-of-type(2){
+    display: flex;
+    margin: 0%;
+    width: 100%;
+}
+main section:nth-of-type(2) img{
+    margin: 0%;
+    width: 50%;
+}
+main section:nth-of-type(2) section{
+    background-color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0%;
+    width: 50%;
+}
+main section:nth-of-type(2) section h1{
+    text-align: center;
+    width: 80%;
+    font-size: 3.8em;
+    text-transform: uppercase;
+}
+main section:nth-of-type(2) section p{
+    text-align: center;
+    width: 80%;
+    font-size: 2em;
+}
+main section:nth-of-type(2) section button{
+    font-size: 2em;
+    color: #590209;
+    height: 12vh;
+    width: 27vh;    
+    background-color: white;
+    border: 4px solid #590209;
+    border-radius: 20px;
+}
+
+/*Terceira páxina*/
+
+main section:nth-of-type(3){
+    background-color: #F8F6E9;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+}
+main section:nth-of-type(3) h1{
+    text-align: center;
+    width: 80%;
+    font-size: 3.8em;
+    text-transform: uppercase;
+}
+main section:nth-of-type(3) p{
+    text-align: center;
+    width: 80%;
+    font-size: 2em;
+}
+main section:nth-of-type(3) button{
+    font-size: 2em;
+    color: #590209;
+    height: 12vh;
+    width: 50vh;    
+    background-color: #F8F6E9;
+    border: 4px solid #590209;
+    border-radius: 20px;
+}
